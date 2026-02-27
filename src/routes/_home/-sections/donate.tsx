@@ -157,7 +157,7 @@ export const DonationBanner = () => (
 					viewport={{ once: true }}
 					transition={{ duration: 0.6, delay: 0.1 }}
 				>
-					<Trans>Support Reactive Resume</Trans>
+					<Trans>Support Resume Craft</Trans>
 				</motion.h2>
 
 				<motion.p
@@ -168,7 +168,7 @@ export const DonationBanner = () => (
 					transition={{ duration: 0.6, delay: 0.2 }}
 				>
 					<Trans>
-						Reactive Resume is a free and open-source project, built with love and maintained by me and a community of
+						Resume Craft is a free and open-source project, built with love and maintained by me and a community of
 						contributors. Your donations help keep the lights on and the code flowing.
 					</Trans>
 				</motion.p>
@@ -205,7 +205,7 @@ export const DonationBanner = () => (
 				transition={{ duration: 0.6, delay: 0.6 }}
 			>
 				<Button asChild size="lg" className="h-11 gap-2 px-6">
-					<a href="https://opencollective.com/reactive-resume" target="_blank" rel="noopener">
+					<a href="https://opencollective.com/Resume-Craft" target="_blank" rel="noopener">
 						<HeartIcon aria-hidden="true" weight="fill" className="text-rose-400 dark:text-rose-600" />
 						Open Collective
 						<span className="sr-only"> ({t`opens in new tab`})</span>

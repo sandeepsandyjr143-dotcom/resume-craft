@@ -1,13 +1,13 @@
 {
-	"name": "reactive-resume",
-	"description": "Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.",
+	"name": "Resume-Craft",
+	"description": "Resume Craft is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.",
 	"version": "5.0.10",
 	"license": "MIT",
 	"type": "module",
 	"packageManager": "pnpm@10.30.3",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/amruthpillai/reactive-resume.git"
+		"url": "https://github.com/amruthpillai/Resume-Craft.git"
 	},
 	"author": {
 		"name": "Amruth Pillai",

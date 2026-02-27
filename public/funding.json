@@ -8,20 +8,20 @@
 		"email": "im.amruth@gmail.com",
 		"description": "Software Engineer",
 		"webpageUrl": {
-			"url": "https://rxresu.me/funding.json"
+			"url": "https://Resume-Craft.vercel.app/funding.json"
 		}
 	},
 	"projects": [
 		{
-			"guid": "reactive-resume",
-			"name": "Reactive Resume",
+			"guid": "Resume-Craft",
+			"name": "Resume Craft",
 			"description": "A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.",
 			"webpageUrl": {
-				"url": "https://rxresu.me"
+				"url": "https://Resume-Craft.vercel.app"
 			},
 			"repositoryUrl": {
-				"url": "https://github.com/amruthpillai/reactive-resume",
-				"wellKnown": "https://github.com/amruthpillai/reactive-resume/blob/main/.github/.well-known/funding-manifest-urls"
+				"url": "https://github.com/amruthpillai/Resume-Craft",
+				"wellKnown": "https://github.com/amruthpillai/Resume-Craft/blob/main/.github/.well-known/funding-manifest-urls"
 			},
 			"licenses": ["spdx:MIT"],
 			"tags": ["data", "design", "productivity", "resume-builder"]
@@ -61,7 +61,7 @@
 				"guid": "open-collective",
 				"type": "payment-provider",
 				"description": "Open Collective",
-				"address": "https://opencollective.com/reactive-resume"
+				"address": "https://opencollective.com/Resume-Craft"
 			}
 		]
 	}

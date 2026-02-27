@@ -26,7 +26,7 @@ services:
       S3_SECRET_ACCESS_KEY: seaweedfs
       S3_REGION: us-east-1
       S3_ENDPOINT: http://seaweedfs:8333
-      S3_BUCKET: reactive-resume
+      S3_BUCKET: Resume-Craft
       S3_FORCE_PATH_STYLE: "true"
 
   postgres:
@@ -85,7 +85,7 @@ services:
           echo 'Waiting for SeaweedFS...';
           sleep 2;
         done;
-        mc mb seaweedfs/reactive-resume --ignore-existing;
+        mc mb seaweedfs/Resume-Craft --ignore-existing;
       "
     depends_on:
       seaweedfs:

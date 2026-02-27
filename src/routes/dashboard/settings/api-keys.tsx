@@ -79,13 +79,13 @@ function RouteComponent() {
 
 						<p className="text-muted-foreground leading-relaxed">
 							<Trans>
-								Explore the API documentation to learn how to integrate Reactive Resume with your applications. Find
+								Explore the API documentation to learn how to integrate Resume Craft with your applications. Find
 								detailed endpoints, request examples, and authentication methods.
 							</Trans>
 						</p>
 
 						<Button asChild variant="link">
-							<a href="https://docs.rxresu.me/api-reference" target="_blank" rel="noopener">
+							<a href="https://docs.Resume-Craft.vercel.app/api-reference" target="_blank" rel="noopener">
 								<LinkSimpleIcon />
 								<Trans>API Reference</Trans>
 							</a>

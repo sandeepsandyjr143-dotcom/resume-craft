@@ -1,35 +1,35 @@
 <div align="center">
-  <a href="https://rxresu.me">
-    <img src="public/opengraph/banner.jpg" alt="Reactive Resume" />
+  <a href="https://Resume-Craft.vercel.app">
+    <img src="public/opengraph/banner.jpg" alt="Resume Craft" />
   </a>
 
-  <h1>Reactive Resume</h1>
+  <h1>Resume Craft</h1>
 
-  <p>Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.</p>
+  <p>Resume Craft is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.</p>
 
   <p>
-    <a href="https://rxresu.me"><strong>Get Started</strong></a>
+    <a href="https://Resume-Craft.vercel.app"><strong>Get Started</strong></a>
     ·
-    <a href="https://docs.rxresu.me"><strong>Learn More</strong></a>
+    <a href="https://docs.Resume-Craft.vercel.app"><strong>Learn More</strong></a>
   </p>
 
   <p>
-    <img src="https://img.shields.io/github/package-json/v/amruthpillai/reactive-resume?style=flat-square" alt="Reactive Resume version">
-    <img src="https://img.shields.io/github/stars/amruthpillai/Reactive-Resume?style=flat-square" alt="GitHub Stars">
-    <img src="https://img.shields.io/github/license/amruthpillai/Reactive-Resume?style=flat-square" alt="License" />
-    <img src="https://img.shields.io/docker/pulls/amruthpillai/reactive-resume?style=flat-square" alt="Docker Pulls" />
+    <img src="https://img.shields.io/github/package-json/v/amruthpillai/Resume-Craft?style=flat-square" alt="Resume Craft version">
+    <img src="https://img.shields.io/github/stars/amruthpillai/Resume-Craft?style=flat-square" alt="GitHub Stars">
+    <img src="https://img.shields.io/github/license/amruthpillai/Resume-Craft?style=flat-square" alt="License" />
+    <img src="https://img.shields.io/docker/pulls/amruthpillai/Resume-Craft?style=flat-square" alt="Docker Pulls" />
     <a href="https://discord.gg/aSyA5ZSxpb"><img src="https://img.shields.io/discord/1173518977851473940?style=flat-square&label=discord" alt="Discord" /></a>
-    <a href="https://crowdin.com/project/reactive-resume"><img src="https://badges.crowdin.net/reactive-resume/localized.svg?style=flat-square" alt="Crowdin" /></a>
+    <a href="https://crowdin.com/project/Resume-Craft"><img src="https://badges.crowdin.net/Resume-Craft/localized.svg?style=flat-square" alt="Crowdin" /></a>
     <a href="https://github.com/sponsors/AmruthPillai"><img src="https://img.shields.io/github/sponsors/AmruthPillai?style=flat-square&label=sponsors" alt="Sponsors" /></a>
-    <a href="https://opencollective.com/reactive-resume"><img src="https://img.shields.io/opencollective/backers/reactive-resume?style=flat-square&label=donations" alt="Donations" /></a>
+    <a href="https://opencollective.com/Resume-Craft"><img src="https://img.shields.io/opencollective/backers/Resume-Craft?style=flat-square&label=donations" alt="Donations" /></a>
   </p>
 </div>
 
 ---
 
-Reactive Resume makes building resumes straightforward. Pick a template, fill in your details, and export to PDF—no account required for basic use. For those who want more control, the entire application can be self-hosted on your own infrastructure.
+Resume Craft makes building resumes straightforward. Pick a template, fill in your details, and export to PDF—no account required for basic use. For those who want more control, the entire application can be self-hosted on your own infrastructure.
 
-Built with privacy as a core principle, Reactive Resume gives you complete ownership of your data. The codebase is fully open-source under the MIT license, with no tracking, no ads, and no hidden costs.
+Built with privacy as a core principle, Resume Craft gives you complete ownership of your data. The codebase is fully open-source under the MIT license, with no tracking, no ads, and no hidden costs.
 
 ## Features
 
@@ -131,12 +131,12 @@ Built with privacy as a core principle, Reactive Resume gives you complete owner
 
 ## Quick Start
 
-The quickest way to run Reactive Resume locally:
+The quickest way to run Resume Craft locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/amruthpillai/reactive-resume.git
-cd reactive-resume
+git clone https://github.com/amruthpillai/Resume-Craft.git
+cd Resume-Craft
 
 # Start all services
 docker compose up -d
@@ -145,9 +145,9 @@ docker compose up -d
 open http://localhost:3000
 ```
 
-[![Build with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/amruthpillai/reactive-resume)
+[![Build with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/amruthpillai/Resume-Craft)
 
-For detailed setup instructions, environment configuration, and self-hosting guides, see the [documentation](https://docs.rxresu.me).
+For detailed setup instructions, environment configuration, and self-hosting guides, see the [documentation](https://docs.Resume-Craft.vercel.app).
 
 ## Tech Stack
 
@@ -165,19 +165,19 @@ For detailed setup instructions, environment configuration, and self-hosting gui
 
 ## Documentation
 
-Comprehensive guides are available at [docs.rxresu.me](https://docs.rxresu.me):
+Comprehensive guides are available at [docs.Resume-Craft.vercel.app](https://docs.Resume-Craft.vercel.app):
 
 | Guide                                                                       | Description                       |
 | --------------------------------------------------------------------------- | --------------------------------- |
-| [Getting Started](https://docs.rxresu.me/getting-started)                   | First-time setup and basic usage  |
-| [Self-Hosting](https://docs.rxresu.me/self-hosting/docker)                  | Deploy on your own server         |
-| [Development Setup](https://docs.rxresu.me/contributing/development)        | Local development environment     |
-| [Project Architecture](https://docs.rxresu.me/contributing/architecture)    | Codebase structure and patterns   |
-| [Exporting Your Resume](https://docs.rxresu.me/guides/exporting-your-resume)| PDF and JSON export options       |
+| [Getting Started](https://docs.Resume-Craft.vercel.app/getting-started)                   | First-time setup and basic usage  |
+| [Self-Hosting](https://docs.Resume-Craft.vercel.app/self-hosting/docker)                  | Deploy on your own server         |
+| [Development Setup](https://docs.Resume-Craft.vercel.app/contributing/development)        | Local development environment     |
+| [Project Architecture](https://docs.Resume-Craft.vercel.app/contributing/architecture)    | Codebase structure and patterns   |
+| [Exporting Your Resume](https://docs.Resume-Craft.vercel.app/guides/exporting-your-resume)| PDF and JSON export options       |
 
 ## Self-Hosting
 
-Reactive Resume can be self-hosted using Docker. The stack includes:
+Resume Craft can be self-hosted using Docker. The stack includes:
 
 - **PostgreSQL** — Database for storing user data and resumes
 - **Printer** — Headless Chromium service for PDF and screenshot generation
@@ -187,23 +187,23 @@ Pull the latest image from Docker Hub or GitHub Container Registry:
 
 ```bash
 # Docker Hub
-docker pull amruthpillai/reactive-resume:latest
+docker pull amruthpillai/Resume-Craft:latest
 
 # GitHub Container Registry
-docker pull ghcr.io/amruthpillai/reactive-resume:latest
+docker pull ghcr.io/amruthpillai/Resume-Craft:latest
 ```
 
-See the [self-hosting guide](https://docs.rxresu.me/self-hosting/docker) for complete instructions.
+See the [self-hosting guide](https://docs.Resume-Craft.vercel.app/self-hosting/docker) for complete instructions.
 
 ## Support
 
-Reactive Resume is and always will be free and open-source. If it has helped you land a job or saved you time, please consider supporting continued development:
+Resume Craft is and always will be free and open-source. If it has helped you land a job or saved you time, please consider supporting continued development:
 
 <p>
   <a href="https://github.com/sponsors/AmruthPillai">
     <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support-ea4aaa?style=flat-square&logo=github-sponsors" alt="GitHub Sponsors" />
   </a>
-  <a href="https://opencollective.com/reactive-resume">
+  <a href="https://opencollective.com/Resume-Craft">
     <img src="https://img.shields.io/badge/Open%20Collective-Contribute-7FADF2?style=flat-square&logo=open-collective" alt="Open Collective" />
   </a>
 </p>
@@ -217,11 +217,11 @@ Other ways to support:
 
 ## Star History
 
-<a href="https://www.star-history.com/#amruthpillai/reactive-resume&type=date&legend=top-left">
+<a href="https://www.star-history.com/#amruthpillai/Resume-Craft&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amruthpillai/Resume-Craft&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amruthpillai/Resume-Craft&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amruthpillai/Resume-Craft&type=date&legend=top-left" />
  </picture>
 </a>
 
@@ -235,7 +235,7 @@ Contributions make open-source thrive. Whether fixing a typo or adding a feature
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-See the [development setup guide](https://docs.rxresu.me/contributing/development) for detailed instructions on how to set up the project locally.
+See the [development setup guide](https://docs.Resume-Craft.vercel.app/contributing/development) for detailed instructions on how to set up the project locally.
 
 ## License
 

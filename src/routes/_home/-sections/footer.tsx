@@ -25,21 +25,21 @@ type SocialLink = {
 };
 
 const getResourceLinks = (): FooterLinkItem[] => [
-	{ url: "https://docs.rxresu.me", label: t`Documentation` },
-	{ url: "https://opencollective.com/reactive-resume", label: t`Sponsorships` },
-	{ url: "https://github.com/amruthpillai/reactive-resume", label: t`Source Code` },
-	{ url: "https://docs.rxresu.me/changelog", label: t`Changelog` },
+	{ url: "https://docs.Resume-Craft.vercel.app", label: t`Documentation` },
+	{ url: "https://opencollective.com/Resume-Craft", label: t`Sponsorships` },
+	{ url: "https://github.com/amruthpillai/Resume-Craft", label: t`Source Code` },
+	{ url: "https://docs.Resume-Craft.vercel.app/changelog", label: t`Changelog` },
 ];
 
 const getCommunityLinks = (): FooterLinkItem[] => [
-	{ url: "https://github.com/amruthpillai/reactive-resume/issues", label: t`Report an issue` },
-	{ url: "https://crowdin.com/project/reactive-resume", label: t`Translations` },
+	{ url: "https://github.com/amruthpillai/Resume-Craft/issues", label: t`Report an issue` },
+	{ url: "https://crowdin.com/project/Resume-Craft", label: t`Translations` },
 	{ url: "https://reddit.com/r/reactiveresume", label: t`Subreddit` },
 	{ url: "https://discord.gg/aSyA5ZSxpb", label: t`Discord` },
 ];
 
 const socialLinks: SocialLink[] = [
-	{ url: "https://github.com/amruthpillai/reactive-resume", label: "GitHub", icon: GithubLogoIcon },
+	{ url: "https://github.com/amruthpillai/Resume-Craft", label: "GitHub", icon: GithubLogoIcon },
 	{ url: "https://linkedin.com/in/amruthpillai", label: "LinkedIn", icon: LinkedinLogoIcon },
 	{ url: "https://x.com/KingOKings", label: "X (Twitter)", icon: XLogoIcon },
 ];
@@ -60,7 +60,7 @@ export function Footer() {
 					<BrandIcon variant="logo" className="size-10" />
 
 					<div className="space-y-2">
-						<h2 className="font-bold text-lg tracking-tight">Reactive Resume</h2>
+						<h2 className="font-bold text-lg tracking-tight">Resume Craft</h2>
 						<p className="max-w-xs text-muted-foreground text-sm leading-relaxed">
 							<Trans>
 								A free and open-source resume builder that simplifies the process of creating, updating, and sharing

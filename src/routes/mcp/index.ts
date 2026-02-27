@@ -7,20 +7,20 @@ import { registerTools } from "./-helpers/tools";
 
 function createMcpServer() {
 	const server = new McpServer({
-		name: "reactive-resume",
+		name: "Resume-Craft",
 		version: "1.0.0",
-		title: "Reactive Resume",
-		websiteUrl: "https://rxresu.me",
+		title: "Resume Craft",
+		websiteUrl: "https://Resume-Craft.vercel.app",
 		description:
-			"Reactive Resume is a free and open-source resume builder. Use this MCP server to interact with your resume using an LLM of your choice.",
+			"Resume Craft is a free and open-source resume builder. Use this MCP server to interact with your resume using an LLM of your choice.",
 		icons: [
 			{
-				src: "https://rxresu.me/icon/light.svg",
+				src: "https://Resume-Craft.vercel.app/icon/light.svg",
 				mimeType: "image/svg+xml",
 				theme: "light",
 			},
 			{
-				src: "https://rxresu.me/icon/dark.svg",
+				src: "https://Resume-Craft.vercel.app/icon/dark.svg",
 				mimeType: "image/svg+xml",
 				theme: "dark",
 			},
